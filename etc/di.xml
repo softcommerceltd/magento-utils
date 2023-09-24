@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Soft Commerce Ltd. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- CLI -->
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="utils_static_clean" xsi:type="object">SoftCommerce\Core\Console\Command\CleanStaticViewFiles</item>
+                <item name="utils_decode_special_characters" xsi:type="object">SoftCommerce\Utils\Console\Command\DecodeHtmlSpecialCharacters</item>
+                <item name="utils_fix_store_url_parameter" xsi:type="object">SoftCommerce\Utils\Console\Command\FixStoreUrlParameters</item>
+                <item name="utils_replace_string_in_db" xsi:type="object">SoftCommerce\Utils\Console\Command\ReplaceStringInDatabase</item>
+                <item name="utils_send_transactional_email" xsi:type="object">SoftCommerce\Utils\Console\Command\SendTransactionalEmail</item>
+                <item name="utils_trim_whitespace" xsi:type="object">SoftCommerce\Utils\Console\Command\TrimWhitespace</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
