@@ -10,7 +10,7 @@
     <type name="Magento\Framework\Console\CommandListInterface">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="utils_static_clean" xsi:type="object">SoftCommerce\Core\Console\Command\CleanStaticViewFiles</item>
+                <item name="utils_static_clean" xsi:type="object">SoftCommerce\Utils\Console\Command\CleanStaticViewFiles</item>
                 <item name="utils_decode_special_characters" xsi:type="object">SoftCommerce\Utils\Console\Command\DecodeHtmlSpecialCharacters</item>
                 <item name="utils_fix_store_url_parameter" xsi:type="object">SoftCommerce\Utils\Console\Command\FixStoreUrlParameters</item>
                 <item name="utils_replace_string_in_db" xsi:type="object">SoftCommerce\Utils\Console\Command\ReplaceStringInDatabase</item>
