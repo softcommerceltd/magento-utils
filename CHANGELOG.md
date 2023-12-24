@@ -1,5 +1,8 @@
 ## Changelog
 
+### Version 1.0.2
+- **Compatibility**: Added compatibility with `SoftCommerce_Core` module.
+
 ### Version 1.0.1
 - **Feature**: New functionality to assign attribute set by category.
 - **Feature**: New functionality to assign product to category by attribute set.

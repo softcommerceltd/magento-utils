@@ -11,7 +11,7 @@ namespace SoftCommerce\Utils\Console\Command;
 use Magento\Framework\App\ResourceConnection;
 use Magento\Framework\Console\Cli;
 use Magento\Framework\DB\Adapter\AdapterInterface;
-use SoftCommerce\Core\Model\Utils\GetEntityTypeIdInterface;
+use SoftCommerce\Core\Model\Eav\GetEntityTypeIdInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

@@ -2,7 +2,7 @@
     "name": "softcommerce/module-utils",
     "description": "Utilities",
     "require": {
-        "php": "~7.4.0||~8.0.0||~8.1.0"
+        "php": "~8.0.0||~8.1.0||8.2.0"
     },
     "type": "magento2-module",
     "license": [
@@ -17,5 +17,5 @@
             "SoftCommerce\\Utils\\": ""
         }
     },
-    "version": "1.0.1"
+    "version": "1.0.2"
 }
