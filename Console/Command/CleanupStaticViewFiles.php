@@ -19,9 +19,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * @inheritDoc
  */
-class CleanStaticViewFiles extends Command
+class CleanupStaticViewFiles extends Command
 {
-    private const COMMAND_NAME = 'utils:static:clean';
+    private const COMMAND_NAME = 'utils:cleanup:static_view_files';
 
     /**
      * @var Filesystem

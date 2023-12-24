@@ -10,7 +10,11 @@
     <type name="Magento\Framework\Console\CommandListInterface">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="utils_static_clean" xsi:type="object">SoftCommerce\Utils\Console\Command\CleanStaticViewFiles</item>
+                <item name="utils_assign_attribute_set_by_category" xsi:type="object">SoftCommerce\Utils\Console\Command\AssignAttributeSetByCategory</item>
+                <item name="utils_assign_product_to_category_by_attribute_set" xsi:type="object">SoftCommerce\Utils\Console\Command\AssignProductToCategoryByAttributeSet</item>
+                <item name="utils_assign_product_to_category_by_category" xsi:type="object">SoftCommerce\Utils\Console\Command\AssignProductToCategoryByCategoryId</item>
+                <item name="utils_cleanup_product_super_attributes" xsi:type="object">SoftCommerce\Utils\Console\Command\CleanupProductSuperAttributes</item>
+                <item name="utils_cleanup_static_view_files" xsi:type="object">SoftCommerce\Utils\Console\Command\CleanupStaticViewFiles</item>
                 <item name="utils_decode_special_characters" xsi:type="object">SoftCommerce\Utils\Console\Command\DecodeHtmlSpecialCharacters</item>
                 <item name="utils_fix_store_url_parameter" xsi:type="object">SoftCommerce\Utils\Console\Command\FixStoreUrlParameters</item>
                 <item name="utils_replace_string_in_db" xsi:type="object">SoftCommerce\Utils\Console\Command\ReplaceStringInDatabase</item>
