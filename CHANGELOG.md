@@ -1,5 +1,8 @@
 ## Changelog
 
+### Version 1.1.0
+- **Compatibility**: Introduced support for PHP 8.3
+
 ### Version 1.0.2
 - **Compatibility**: Added compatibility with `SoftCommerce_Core` module.
 
